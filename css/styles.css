@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Permanent Marker", cursive;
+    color: #846b78;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 7em;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    font-size: 7.1em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+h2:hover {
+    font-size: 3.2em;
+}
+
+p:hover {
+    font-size: 1.6em;
+}
+
+h1,
+h2,
+p {
+    transition: font-size 0.3s ease;
+}
+
+button {
+    background-color: #f2c4dc;
+    color: #846b78;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease,
+        padding 0.3s ease, font-size 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Permanent Marker", cursive;
+}
+
+button:hover {
+    background-color: #e1a9c7;
+    color: #a68697;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 25px 45px;
+    font-size: 2.1em;
+}
+
+audio {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
